@@ -225,6 +225,7 @@ footer ul li + li {
   .advice button {
     width: 2em;
     height: 2em;
+    top: 1em;
   }
 }
 @media (pointer: fine) {
