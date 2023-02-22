@@ -90,6 +90,9 @@ footer {
 }
 //media queries
 @media (min-width: 481px) {
+  body {
+    justify-content: center;
+  }
   .advice {
     font-size: 2rem;
     q {

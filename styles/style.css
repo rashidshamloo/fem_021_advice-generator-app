@@ -213,6 +213,9 @@ footer ul li + li {
 }
 
 @media (min-width: 481px) {
+  body {
+    justify-content: center;
+  }
   .advice {
     font-size: 2rem;
   }
