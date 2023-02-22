@@ -1,0 +1,120 @@
+//font
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+
+//CSS Reset
+@import "modern-normalize.min";
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+//colors
+$lightCyan: hsl(193, 38%, 86%);
+$neonGreen: hsl(150, 100%, 66%);
+$grayishBlue: hsl(217, 19%, 38%);
+$darkGrayishBlue: hsl(217, 19%, 24%);
+$darkBlue: hsl(218, 23%, 16%);
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-size: 1.75rem;
+  min-height: 100vh;
+  color: $lightCyan;
+  background-color: $darkBlue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.advice {
+  margin: 5rem 1rem 1rem 1rem;
+  max-width: 33.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $darkGrayishBlue;
+  border-radius: 0.35em;
+  padding: 1.5em 0.8em 0 0.8em;
+  h1 {
+    font-size: 0.39em;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    color: $neonGreen;
+  }
+  q {
+    text-align: center;
+    font-size: 0.85em;
+    line-height: 1.4;
+    margin: 0.9em 0;
+  }
+  button {
+    border-radius: 50%;
+    background-color: $neonGreen;
+    border: none;
+    width: 2.25em;
+    height: 2.25em;
+    position: relative;
+    top: 1.125em;
+    cursor: pointer;
+  }
+}
+footer {
+  color: $lightCyan;
+  margin: 2.5rem 0 0.5rem 0;
+  font-size: 0.8rem;
+  ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.25rem;
+    li {
+      padding: 0 0.5rem;
+      a {
+        color: $lightCyan;
+        transition: color 300ms;
+      }
+    }
+    li + li {
+      border-left: 0.1rem solid $lightCyan;
+    }
+  }
+}
+//media queries
+@media (min-width: 481px) {
+  .advice {
+    font-size: 2rem;
+    q {
+      margin: 0.9em 0.5em;
+    }
+    button {
+      width: 2em;
+      height: 2em;
+    }
+  }
+}
+@media (pointer: fine) {
+  .advice {
+    button:hover {
+      box-shadow: 0 0 1.5em $neonGreen;
+      filter: brightness(110%);
+    }
+  }
+  footer {
+    ul {
+      li {
+        a:hover {
+          color: $neonGreen;
+        }
+      }
+    }
+  }
+}

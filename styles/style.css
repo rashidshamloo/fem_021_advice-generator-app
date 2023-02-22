@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+/**
+ * Minified by jsDelivr using clean-css v4.2.3.
+ * Original file: /npm/modern-normalize@1.1.0/modern-normalize.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+/*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+html {
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+     tab-size: 4;
+}
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+hr {
+  height: 0;
+  color: inherit;
+}
+
+abbr[title] {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+code, kbd, pre, samp {
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 1em;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+table {
+  text-indent: 0;
+  border-color: inherit;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button, select {
+  text-transform: none;
+}
+
+[type=button], [type=reset], [type=submit], button {
+  -webkit-appearance: button;
+}
+
+::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+legend {
+  padding: 0;
+}
+
+progress {
+  vertical-align: baseline;
+}
+
+::-webkit-inner-spin-button, ::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+summary {
+  display: list-item;
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-size: 1.75rem;
+  min-height: 100vh;
+  color: hsl(193deg, 38%, 86%);
+  background-color: hsl(218deg, 23%, 16%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.advice {
+  margin: 5rem 1rem 1rem 1rem;
+  max-width: 33.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(217deg, 19%, 24%);
+  border-radius: 0.35em;
+  padding: 1.5em 0.8em 0 0.8em;
+}
+.advice h1 {
+  font-size: 0.39em;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  color: hsl(150deg, 100%, 66%);
+}
+.advice q {
+  text-align: center;
+  font-size: 0.85em;
+  line-height: 1.4;
+  margin: 0.9em 0;
+}
+.advice button {
+  border-radius: 50%;
+  background-color: hsl(150deg, 100%, 66%);
+  border: none;
+  width: 2.25em;
+  height: 2.25em;
+  position: relative;
+  top: 1.125em;
+  cursor: pointer;
+}
+
+footer {
+  color: hsl(193deg, 38%, 86%);
+  margin: 2.5rem 0 0.5rem 0;
+  font-size: 0.8rem;
+}
+footer ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.25rem;
+}
+footer ul li {
+  padding: 0 0.5rem;
+}
+footer ul li a {
+  color: hsl(193deg, 38%, 86%);
+  transition: color 300ms;
+}
+footer ul li + li {
+  border-left: 0.1rem solid hsl(193deg, 38%, 86%);
+}
+
+@media (min-width: 481px) {
+  .advice {
+    font-size: 2rem;
+  }
+  .advice q {
+    margin: 0.9em 0.5em;
+  }
+  .advice button {
+    width: 2em;
+    height: 2em;
+  }
+}
+@media (pointer: fine) {
+  .advice button:hover {
+    box-shadow: 0 0 1.5em hsl(150deg, 100%, 66%);
+    filter: brightness(110%);
+  }
+  footer ul li a:hover {
+    color: hsl(150deg, 100%, 66%);
+  }
+}/*# sourceMappingURL=style.css.map */

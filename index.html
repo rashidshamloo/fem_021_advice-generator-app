@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <title>Advice Generator App</title>
+    <script src="scripts/script.js" defer></script>
+  </head>
+
+  <body>
+    <main>
+      <article class="advice">
+        <h1>Advice #<span id="advice-id"></span></h1>
+        <q id="advice-content"></q>
+        <picture>
+          <source srcset="images/pattern-divider-desktop.svg" media="(min-width:481px)" />
+          <img
+            alt="Divider"
+            aria-hidden="true"
+            src="images/pattern-divider-mobile.svg"
+          />
+        </picture>
+        <button aria-label="Show Another Advice" onclick="showAdvice()">
+          <img alt="Dice" aria-hidden="true" src="images/icon-dice.svg" />
+        </button>
+      </article>
+    </main>
+    <footer>
+      <p>Developed by Rashid Shamloo</p>
+      <ul class="footer-icon">
+        <li>
+          <a
+            href="https://rashidshamloo.github.com"
+            title="GitHub"
+            target="_blank"
+            ><i class="bi-github" aria-hidden="true"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/rashid-shamloo/"
+            title="Linked-in"
+            target="_blank"
+            ><i class="bi-linkedin" aria-hidden="true"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://twitter.com/rashidshamloo"
+            title="Twitter"
+            target="_blank"
+            ><i class="bi-twitter" aria-hidden="true"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
